@@ -1,78 +1,84 @@
-#  Tessa – Allergy Safe Shopping Assistant
+# 🛒 Tessa — Allergen-Safe Shopping Assistant
 
-Tessa is an AI-powered shopping assistant designed to help users with food allergies make safe and confident product choices.
-
-Built using **Python** and **Streamlit**, Tessa provides a clean, category-wise shopping experience with allergy filters and search functionality.
-
----
-
-##  Features
-
--  Filter products by specific food allergies
--  Search products by name
--  Organized into categories: Grocery → Dairy, Snacks, Frozen, Beverages
--  Simple, responsive UI with smart recommendations
--  Visual product categories and allergen filtering
+> An AI-powered shopping assistant that helps users with food allergies 
+> make safe and confident product choices.
 
 ---
 
-## Tech Stack
+## 🌐 Project Overview
 
-- **Frontend & UI:** Streamlit  
-- **Language:** Python  
-- **Encoding:** Base64 for background image display  
-- **Assets Folder:** All images are stored in `assets/` folder
-
->  No external ML models are used in this version.
+Tessa is a smart shopping assistant built with **Python** and **Streamlit**. It provides a clean, category-wise shopping experience with allergy filters and search functionality — helping users avoid products that contain their specific allergens.
 
 ---
 
-##  Installation & Setup
+## ✨ Features
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/tessa.git
-cd tessa
+- 🔍 Search products by name instantly
+- 🚫 Filter products by specific food allergies
+- 📦 Products organized into categories — Dairy, Snacks, Frozen, Beverages
+- 🎨 Clean and responsive UI built with Streamlit
+- ⚡ Fast and lightweight — no external ML models required
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Streamlit | Frontend UI and application framework |
+| Base64 | Background image encoding |
+
+---
+
+## 📁 Project Structure
+
+```
+Tessa-Allergen-Assistant/
+├── app.py                 ← Main application file
+├── requirements.txt       ← Python dependencies
+├── README.md
+└── assets/                ← Images and visual assets
+    ├── header.png
+    ├── grocery.png
+    ├── dairy.png
+    ├── frozen.png
+    ├── snacks.png
+    ├── beverages.png
+    ├── fashion.png
+    └── pharmacy.png
 ```
 
-### 2. Install Dependencies
+---
+
+## ⚙️ How to Run Locally
+
 ```bash
+# 1. Clone the repository
+git clone https://github.com/Nehmuk/Tessa-Allergen-Assistant.git
+cd Tessa-Allergen-Assistant
+
+# 2. Install dependencies
 pip install -r requirements.txt
-```
 
-> Only `streamlit` is required. `base64` is part of Python standard library.
-### 3. Run the App
-```bash
+# 3. Run the application
 streamlit run app.py
 ```
 
----
-
-##  Project Structure
-
-```
-tessa/
-├── app.py
-├── requirements.txt
-├── README.md
-├── assets/
-│   ├── header.png
-│   ├── grocery.png
-│   ├── dairy.png
-│   ├── frozen.png
-│   ├── snacks.png
-│   ├── beverages.png
-│   ├── fashion.png
-│   └── pharmacy.png
-```
-
-##  Developed by
-
-**Neha Mukhopadhyay**   
-[LinkedIn](https://www.linkedin.com/in/neha-mukhopadhyay-ba61272a3)
+The app will open automatically at `http://localhost:8501`
 
 ---
 
-## License
+## 👩‍💻 Developer
 
-This project is for academic and demo purposes. Contributions and feedback are welcome!
+**Neha Mukhopadhyay**
+B.E. Computer Science and Engineering
+GSSSIETW, Mysuru
+
+[LinkedIn](https://www.linkedin.com/in/neha-mukhopadhyay-ba61272a3) · [GitHub](https://github.com/Nehmuk)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
